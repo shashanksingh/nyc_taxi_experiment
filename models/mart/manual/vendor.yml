@@ -1,6 +1,6 @@
 version: 2
 
 models:
-  - name: dim_vendor
+  - name: vendor
     description: "generated from https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf"
 
