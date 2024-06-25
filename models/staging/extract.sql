@@ -2,4 +2,4 @@
     config(materialized='table')
 }}
 
-SELECT * FROM read_parquet('s3://nyc-tlc/trip data/yellow_tripdata_2021-*.parquet')
+SELECT * FROM read_parquet('https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-01.parquet')
