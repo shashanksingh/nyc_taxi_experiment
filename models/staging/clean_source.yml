@@ -2,6 +2,6 @@
 version: 2
 
 models:
-  - name: extract
-    description: "extract dbt data"
+  - name: clean_source
+    description: "Clean Source"
 
