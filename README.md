@@ -1,15 +1,13 @@
-Welcome to your new dbt project!
+Welcome to your NYC taxi data epxloration 
+data [download-loaded from](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) 
 
-### Using the starter project
+### Entry Point
 
 Try running the following commands:
-- dbt run
-- dbt test
+- poetry rundbt run
+- poetry rundbt test
 
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+### Screenshot:
+![Screenshot](images/dbt-docs.png)
+
