@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: total_amount_based_on_distance
+    description: "Calculating total and average fare amounts based on distance buckets."
+    columns:
+      - name: total_fare_amount
+        description: "Total fare amount"
+        tests:
+          - not_null
+      - name: avg_fare_amount
+        description: "Average fare amount"
+        tests:
+          - not_null
+      - name: trip_distance_bucketed
+        description: "Buckets in increments of 2"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['<2', '2-4', '4-6', '6+']

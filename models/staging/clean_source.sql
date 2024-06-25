@@ -1,7 +1,6 @@
 {{
     config(
-        materialized='table',
-        post_hook=["CREATE INDEX idx_vendor_id on {{this}} (vendor_id)"]
+        materialized='table'
     )
 }}
 
@@ -20,5 +19,12 @@ SELECT VendorID as vendor_id,
     payment_type as payment_type_id,
     fare_amount,
     Airport_fee as airport_fee,
-    *
+    fare_amount,
+    extra,
+    mta_tax,
+    tip_amount,
+    tolls_amount,
+    improvement_surcharge,
+    total_amount,
+    congestion_surcharge
     FROM source
