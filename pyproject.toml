@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "nyc-taxi-experiment"
+version = "0.1.0"
+description = ""
+authors = ["Shashank Singh <shashank.personal@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+dbt = "^1.0.0.38.4"
+dbt-duckdb = "^1.8.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
